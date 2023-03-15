@@ -1,0 +1,162 @@
+*{
+  margin:0;
+  padding: 0;
+
+}
+
+.App {
+  background-color: #24032b;
+  background-image: linear-gradient(328deg, #24032b 4%, #350e4e 32%, #000000 78%);
+  overflow: hidden;
+
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  color: white;
+  backdrop-filter: blur(2px) saturate(0%);
+  -webkit-backdrop-filter: blur(2px) saturate(0%);
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 1px 1px 12px 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.App-logo {
+  margin-top: 9px;
+  height: 10vmin;
+  width: 7%;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo-slide {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.test {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo-slide{
+  width: 50%;
+}
+
+.test h2{
+  color: #ffff;
+  margin: 160px 200px;
+}
+
+.pre-footer{
+  text-align: center;
+  margin: 200px 100px;
+}
+
+.pre-footer h3 {
+  color: #ffff;
+}
+
+.pre-footer p{
+  color: #ffff;
+}
+
+.pre-footer a{
+  color: aquamarine;
+}
+
+
+.footer {
+  background-color: #030808;
+  background-image: linear-gradient(0deg, #030808 0%, #1f0129 100%);
+  padding-bottom: 80px;
+  padding-top: 15px;
+}
+
+.linha{
+  text-align: center;
+  color: #ffff;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.credito{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  color: #fff;
+  margin: 5px 20px;
+}
+
+.coluna{
+
+}
+
+.credito span{
+  font-size: 43px;
+  font-weight: 500;
+
+}
+
+.titulo{
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  
+}
+
+.titulo a{
+  margin: 5px 0;
+  text-decoration: none;
+  font-weight: 400;
+  color: #666;
+
+}
+
+.footer h1{
+  color: aliceblue;
+  
+}
+
+.footer span{
+  color: #ffff;
+  font-size: 19px;
+}
+
+.ultimo-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 76%;
+}
+
+.solid{
+  margin-left: 15%;
+  width: 72%;
+  border: 1px solid grey;
+}
+
+#logos{
+  display: flex;
+}
+
+.footer img{
+  position: relative;
+  top: 30px;
+  margin-left: 35px;
+  width: 40px;
+}
+

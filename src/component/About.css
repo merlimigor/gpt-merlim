@@ -1,0 +1,76 @@
+#voltar{
+  text-decoration: none;
+}
+
+.voltar{
+  color: #fff;
+  display: flex;
+  font-size: 20px;
+  border: none;
+  background: none;
+  position: relative;
+  text-decoration: none; 
+}
+
+.voltar:before{
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 3px;
+  bottom: 0;
+  left: 2px;
+  background-color: purple;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+  color: purple;
+  
+}
+
+.voltar:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+  color: purple;
+
+}
+
+.voltar:hover {
+  color: purple;
+  transition: all 2s;
+
+}
+
+textarea {
+  width: 80%;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  resize: none;
+  
+}
+
+.chat {
+  height: 80vh;
+}
+
+.answer-box{
+  height: 70%;
+  margin: 1% 10%;
+  backdrop-filter: blur(25px) saturate(107%);
+    -webkit-backdrop-filter: blur(25px) saturate(107%);
+    background-color: rgba(255, 255, 255, 0.21);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+  
+}
+
+.text-box{
+  border: none;
+  height: 20%;
+  margin: 0% 10%;
+  backdrop-filter: blur(25px) saturate(107%);
+    -webkit-backdrop-filter: blur(25px) saturate(107%);
+    background-color: rgba(255, 255, 255, 0.21);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
