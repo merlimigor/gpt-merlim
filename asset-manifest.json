@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/gpt-merlim/static/css/main.5f158500.css",
+    "main.js": "/gpt-merlim/static/js/main.0dbe3a64.js",
+    "static/js/787.7f06d707.chunk.js": "/gpt-merlim/static/js/787.7f06d707.chunk.js",
+    "static/media/gpt-logo.png": "/gpt-merlim/static/media/gpt-logo.30a8ff1a920d157fe974.png",
+    "static/media/instagram.svg": "/gpt-merlim/static/media/instagram.02a356e36768ceda4113b244fa63e2ff.svg",
+    "static/media/youtube.svg": "/gpt-merlim/static/media/youtube.19f8677e6ec2f7d1c3d804cb3aad09c4.svg",
+    "index.html": "/gpt-merlim/index.html",
+    "static/media/linkedin.svg": "/gpt-merlim/static/media/linkedin.c4ad084fddc35cce29dba9bd9fb7b9c8.svg",
+    "main.5f158500.css.map": "/gpt-merlim/static/css/main.5f158500.css.map",
+    "main.0dbe3a64.js.map": "/gpt-merlim/static/js/main.0dbe3a64.js.map",
+    "787.7f06d707.chunk.js.map": "/gpt-merlim/static/js/787.7f06d707.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f158500.css",
+    "static/js/main.0dbe3a64.js"
+  ]
+}
